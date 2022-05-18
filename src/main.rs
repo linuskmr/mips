@@ -1,7 +1,7 @@
 use std::{error, fs, io};
 use std::io::{BufRead};
 use std::str::FromStr;
-use mips_asm::{Instance, Instruction, MachineWord, ParseInstructionError};
+use mips::{Instance, Instruction, MachineWord, ParseInstructionError};
 
 #[derive(clap::Parser)]
 #[clap(author, version, about)]
